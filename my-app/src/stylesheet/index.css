@@ -1,0 +1,23 @@
+.board {
+  width: 32rem;
+  height: 31rem;
+  margin: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.square {
+  width: 10rem;
+  height: 10rem;
+  border: 2px solid black;
+}
+.square:hover {
+  background-color: rgba(120, 120, 168, 0.671);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  text-align: center;
+}
